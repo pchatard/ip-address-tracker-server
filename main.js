@@ -5,7 +5,7 @@ const cors = require("cors");
 const PORT = process.env.PORT || 3000;
 require("dotenv").config();
 
-app.use(cors({ origin: 'https://ip-address-tracker-hc4uwi8of.vercel.app' }));
+app.use(cors({ origin: 'https://ip-address-tracker-omega.vercel.app' }));
 
 app.get("/map", (req, res, next) => {
 	const options = {
